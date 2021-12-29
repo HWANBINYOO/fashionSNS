@@ -1,0 +1,173 @@
+@font-face {
+    src: url("/font/Cafe24Ssurround.ttf");
+    font-family: fashionfont;
+    /* font-family: "Supermercado One"; */
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: fashionfont;
+   
+}
+body{
+    
+    /* background-color: whitesmoke; */
+    /* width: 360px;
+    height: 640px; */
+}
+.wrap{
+    /* width: 1520px; */
+    height: 100vh;
+    /* background:linear-gradient(to right,#BFBBF5,#94DBEC); */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* 1page */
+.wrap1{
+    /* width: 1520px;
+    height: 1024px; */
+    width: 100%;
+    height: 610px;
+    background-color:white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoBox{
+    /* margin-top: 250px; */
+    width: 500px;
+    height: 150px;
+    /* border: 15px solid black;
+    border-radius: 25px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logoBox > span{
+    /* font-family: "Supermercado One"; */
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    cursor: pointer;
+
+}
+
+
+/* 로그인 창 */
+.loginform{
+    width: 1100px;
+    /* height: 850px; */
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+/* title */
+
+.title{
+    width: 540px;
+    height: 10px;
+    margin-bottom: 180px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+
+
+    font-size: 70px;
+    font-weight: bold;
+
+}
+.title p{
+    color: black;
+    text-align: center;
+}
+.title span{
+    font-size: 20px;
+}
+.logintitle{
+    font-size: 80px;
+}
+.idpwwrap{
+    /* border: 5px solid #BFBBF5; */
+    width: 620px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.idpwBox{
+    width: 430px;
+    height: 50px;
+    margin: 15px 0px;
+    border-bottom: 3px solid black;
+
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    color: black;
+}
+
+.idpwBox > input{
+    font-family: "Supermercado One";
+    margin-left: 17px;
+    border: none;
+    outline: none;
+    font-size: 24px;
+    /* background-color: transparent; */
+}
+
+.idpwBox > input::placeholder{
+    color: black;
+}
+
+
+.loginbtn{
+    width: 430px;
+    height: 44px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 25px;
+    border: 4px solid black;
+    border-radius: 40px;
+    margin-bottom: 50px;
+}
+#Signupbtn{
+    width: 430px;
+    height: 44px;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+    border: none;
+    font-size: 26px;
+    border: 4px solid black;
+    border-radius: 40px;
+}
+
+
+.gita{
+    width: 400px;
+    display: flex;
+    justify-content:center;
+
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.gita > a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
