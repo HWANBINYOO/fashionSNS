@@ -37,7 +37,23 @@
 
         <div class="Profilecententwrap">
             <div class="settingmain">
-                <img src="/img/janggu.jpg" alt="">
+
+                <input type="file" id="chooseFile" name="chooseFile" accept="image/*" onchange="loadFile(this)">
+                
+                <div class="changimgBox">
+                    
+                    <div id="image-show"></div>
+                    
+                    
+                        <img class="profilemainimg" src="/img/janggu.jpg" alt="">
+
+                        <label class="button"for="chooseFile">
+                            <i class="fas fa-camera"></i>
+                        </label>
+                   
+
+                </div>
+
                 <div class="centents">
                     <div class="namecontent">
                         <span>이름</span>
@@ -77,7 +93,7 @@
         </div>
 
     </div>
-    <!-- <script src="/js/index.js"></script>
-    <script src="js/login.js"></script> -->
+    <script src="/js/index.js"></script>
+    <script src="js/login.js"></script>
 </body>
 </html>
