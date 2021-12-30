@@ -239,7 +239,7 @@ a{ text-decoration-line: none; color: black; }
 
 .profilemain{
     gap: 6px;
-    width: 1520px;
+    width: 100vh;
     height: 400px;
     margin: 40px 0 0 0 ;
     display: flex;
