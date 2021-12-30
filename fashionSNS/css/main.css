@@ -284,7 +284,7 @@ a{ text-decoration-line: none; color: black; }
 }
 
 .postsBox{
-    padding: 10px 20px 0px 20px;
+    /* padding: 10px 20px 0px 20px; */
     width: 1080px;
     margin: 0 auto;
     /* background: linear-gradient(to right,#BFBBF5,#94DBEC); */
@@ -400,7 +400,6 @@ a{ text-decoration-line: none; color: black; }
 }
 
 .settingmain img{
-    padding-top: 20px;
     width: 150px;
     border-radius: 50%;
 }
@@ -652,6 +651,8 @@ a{ text-decoration-line: none; color: black; }
     justify-content: space-between;
 }
 .addimgBox{
+    padding: 5px;
+
     background-color: #E0DCDC ;
     width: 150px;
     height: 120px;
@@ -662,6 +663,7 @@ a{ text-decoration-line: none; color: black; }
     align-items: center;
     justify-content: center;
 }
+
 .hashtagBox{
     width: 550px;
     display: flex;
@@ -745,4 +747,34 @@ a{ text-decoration-line: none; color: black; }
     height: 50px;
     width: 100%;
     background-color: black;
+}
+
+
+
+
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+label {
+    cursor: pointer;
+    font-size: 1em;
+    color: black;
+}
+
+/* 못생긴 기존 input 숨기기 */
+#chooseFile {
+    visibility: hidden;
+}
+#image-show{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+}
+.changimgBox{
+    display: flex;
+    align-items:flex-end
 }
