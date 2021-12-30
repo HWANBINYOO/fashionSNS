@@ -422,7 +422,12 @@ a{ text-decoration-line: none; color: black; }
     color: gray;
     font-size: 20px;
 }
+#passwordchange{
+    font-family: "Supermercado One";
+}
 .namecontent input{
+
+    font-size: 25px;
     width: 400px;
     height: 40px;
     text-align: center;
